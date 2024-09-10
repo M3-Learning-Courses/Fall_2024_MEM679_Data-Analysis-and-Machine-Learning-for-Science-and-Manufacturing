@@ -42,11 +42,13 @@ jobs:
 
       # Upload the book's HTML as an artifact
       - name: Upload artifact
+        if: github.repository != 'jagar2/Fall_2024_MEM679_Data-Analysis-and-Machine-Learning-for-Science-and-Manufacturing'
         uses: actions/upload-pages-artifact@v2
         with:
           path: "./jupyterbook/_build/html"
 
       # Deploy the book's HTML to GitHub Pages
       - name: Deploy to GitHub Pages
+        if: github.repository != 'jagar2/Fall_2024_MEM679_Data-Analysis-and-Machine-Learning-for-Science-and-Manufacturing'
         id: deployment
         uses: actions/deploy-pages@v2
