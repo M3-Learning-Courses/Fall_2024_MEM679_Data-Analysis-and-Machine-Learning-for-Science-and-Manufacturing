@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   deploy-book:
-    if: github.actor == 'jagar2' && github.repository != 'jagar2/Fall_2024_MEM679_Data-Analysis-and-Machine-Learning-for-Science-and-Manufacturing'
+    #if: github.actor == 'jagar2' && github.repository != 'jagar2/Fall_2024_MEM679_Data-Analysis-and-Machine-Learning-for-Science-and-Manufacturing'
     runs-on: shenron
     permissions:
       pages: write
