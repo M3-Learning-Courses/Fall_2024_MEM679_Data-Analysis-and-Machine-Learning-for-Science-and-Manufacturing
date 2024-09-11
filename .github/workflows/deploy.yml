@@ -40,5 +40,5 @@ jobs:
         run: |
           SMBSHARE="/mnt/drexel_web/MEM679" &&
           JBPATH="./jupyterbook" &&
-          sudo cp -r $JBPATH/_build/html/* $SMBSHARE
+          cp -r $JBPATH/_build/html/* $SMBSHARE
 
