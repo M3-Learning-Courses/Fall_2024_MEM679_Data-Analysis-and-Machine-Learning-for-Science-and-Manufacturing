@@ -8,7 +8,7 @@
 title                       : Fall 2024 MEM 679 Data Analysis and Machine Learning for Science and Manufacturing  # The title of the book. Will be placed in the left navbar.
 author                      : Joshua C. Agar  # The author of the book
 copyright                   : "2024"  # Copyright year to be placed in the footer
-logo                        : ./assets/Drexel_M3_Logo-01.png # A path to the book logo
+logo                        : ./jupyterhub/assets/Drexel_M3_Logo-01.png # A path to the book logo
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
