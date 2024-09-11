@@ -2,13 +2,13 @@ format: jb-book
 root: intro
 options:
   numbered: true
-# parts:
-#   - caption: "Course Content \U0001F4DC"
-#     chapters:
-#       - file: Course_Materials/Course_materials
-#         title: "Course Materials"
-#         sections:
-#           - file: Course_Materials/syllabus
+parts:
+  - caption: "Course Content \U0001F4DC"
+    chapters:
+      - file: Course_Materials/Course_materials
+        title: "Course Materials"
+        sections:
+          - file: Course_Materials/syllabus
 #           - file: Course_Materials/Course_survey
 #           - file: Course_Materials/Survey_Response
 #           - file: Course_Materials/Final_project

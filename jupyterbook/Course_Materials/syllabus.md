@@ -96,7 +96,7 @@ Upon completion of this course, participants should be able to:
 | Date         | Lecture 1 Topic                                          | Lecture 2 Topic                                                | Homework Assignments                                                    |
 |--------------|----------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------|
 | Week 1: 9/24, 9/26 | Why Data Analysis and Machine Learning is one of the Most Important Skills | Introduction to Python ecosystems, packages, documentation, and Git | Homework 1: One-Page Whitepaper: Finding a Data Type, Set, and Source for the Course (**Due 10/2**)         |
-| Week 2: 10/1, 10/3 | Importance and Challenges in Scientific Data Analysis      | Introduction to Python: Variables, Operators, and Data Types   | Homework 2: Building a Game with ChatGPT: Ultimate Texas Holdem    (**Due 10/17**)     |
+| Week 2: 10/1, 10/3 | Importance and Challenges in Scientific Data Analysis      | Introduction to Python: Variables, Operators, and Data Types   | Homework 2: Building a Game with ChatGPT: Ultimate Texas Hold'em    (**Due 10/17**)     |
 | Week 3: 10/8, 10/10 | Introduction to Python: Flow Control, Loops, Functions, and Generators | Introduction to Python: Lambda Functions, Classes, *args and **kwargs, and Decorators |        Homework 3: Meeting with Prof. Agar on Project               |
 | Week 4: 10/15, 10/17 | No Class - Professor Agar is on Travel                     | No Class - Professor Agar is on Travel                        | **No Homework**  |
 | Week 5: 10/22, 10/24 | Numpy, Scipy, and Visualization                           | Interactive Visualization, Symbolic toolkits, Graphical User Interfaces | Homework 5: Graph, Fit, and Visualize Your Data (**Due 10/30**)             |
@@ -464,7 +464,7 @@ The process by which we aim to achieve fairness through reallocation of Universi
 
 ### Inclusion
 
-We adopt [Association of American Colleges and Universities'](https://www.aacu.org/making-excellence-inclusive) definition of inclusion as: The active, intentional, and ongoing engagement with diversity—in the curriculum, in the cocurriculum, and in communities (intellectual, social, cultural, geographical) with which individuals might connect—in ways that increase awareness, content knowledge, cognitive sophistication, and empathic understanding of the complex ways individuals interact within systems and institutions.
+We adopt [Association of American Colleges and Universities'](https://www.aacu.org/making-excellence-inclusive) definition of inclusion as: The active, intentional, and ongoing engagement with diversity—in the curriculum and in communities (intellectual, social, cultural, geographical) with which individuals might connect—in ways that increase awareness, content knowledge, cognitive sophistication, and empathic understanding of the complex ways individuals interact within systems and institutions.
 
 ### Institutional Racism
 
