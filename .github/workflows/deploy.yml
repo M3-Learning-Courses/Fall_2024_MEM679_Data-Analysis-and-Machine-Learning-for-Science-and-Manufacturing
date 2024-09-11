@@ -38,6 +38,7 @@ jobs:
       # Upload artifact and copy to SMB share
       - name: Upload and Deploy
         run: |
+          id
           SMBSHARE="/mnt/drexel_web/MEM679" &&
           JBPATH="./jupyterbook" &&
           cp -r $JBPATH/_build/html/* $SMBSHARE
