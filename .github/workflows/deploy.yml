@@ -15,7 +15,7 @@ concurrency:
 jobs:
   deploy-book:
     #if: github.actor == 'jagar2' && github.repository != 'jagar2/Fall_2024_MEM679_Data-Analysis-and-Machine-Learning-for-Science-and-Manufacturing'
-    runs-on: shenron
+    runs-on: self-hosted
     permissions:
       pages: write
       id-token: write
@@ -40,5 +40,5 @@ jobs:
         run: |
           SMBSHARE="/mnt/drexel_web/MEM679" &&
           JBPATH="./jupyterbook" &&
-          sudo cp -r $JBPATH/_build/html/* $SMBSHARE
+          cp -r $JBPATH/_build/html/* $SMBSHARE
 
