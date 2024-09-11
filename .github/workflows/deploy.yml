@@ -37,6 +37,7 @@ jobs:
 
       # Upload artifact and copy to SMB share
       - name: Upload and Deploy
+        if: contains(github.event.head_commit.message, '#push')
         run: |
           id
           SMBSHARE="/mnt/drexel_web/MEM679" &&
