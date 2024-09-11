@@ -8,9 +8,9 @@ This is a JupyterBook which contains all of the course materials for the Fall 20
 
 If you are enrolled in the course feel free to use this application to book a meeting with Prof. Agar:
 
-If you are having trouble rendering the iframe you can open this [link](https://outlook.office365.com/owa/calendar/MEMT680ProjectMeetings@drexel0.onmicrosoft.com/bookings/) for bookings
+If you are having trouble rendering the iframe you can open this [link](https://outlook.office365.com/owa/calendar/MEM679@drexel0.onmicrosoft.com/bookings/) for bookings
 
-<iframe src='https://outlook.office365.com/owa/calendar/MEMT680ProjectMeetings@drexel0.onmicrosoft.com/bookings/' width='100%' height="400px" scrolling='yes' style='border:0'></iframe>
+<iframe src='https://outlook.office365.com/owa/calendar/MEM679@drexel0.onmicrosoft.com/bookings/' width='100%' height="400px" scrolling='yes' style='border:0'></iframe>
 
 Table of Contents
 
