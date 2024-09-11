@@ -17,7 +17,9 @@
 ## Class Information
 
 *Dates:* Sep 19, 2023 - Dec 10, 2023
+
 *Times:* Tuesday/Thursday 02:00 pm - 03:20 pm
+
 *Class Room:* Randell 238A
 
 ---
