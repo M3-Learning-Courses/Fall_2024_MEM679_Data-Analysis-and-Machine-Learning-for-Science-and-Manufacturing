@@ -1,0 +1,114 @@
+/* Light theme */
+html[data-theme="light"] {
+    --pst-color-primary: #002D72;
+    /* Drexel Blue */
+    --pst-color-secondary: #FFD100;
+    /* Drexel Yellow */
+    --pst-color-success: #9DAD33;
+    /* Light Green */
+    --pst-color-info: #006298;
+    /* Dark Blue */
+    --pst-color-warning: #FF8F1C;
+    /* Light Orange */
+    --pst-color-danger: #A50021;
+    /* Red */
+    --pst-color-text-base: #002D72;
+    /* Drexel Blue */
+    --pst-color-text-muted: #A7A8AA;
+    /* Cool Gray 6C */
+    --pst-color-border: #D1D5D8;
+    /* Light Gray */
+    --pst-color-shadow: #A7A8AA;
+    /* Cool Gray 6C */
+    --pst-color-background: #FFFFFF;
+    /* White */
+    --pst-color-on-background: #F5F5F5;
+    /* Light Gray */
+    --pst-color-surface: #F0F0F0;
+    /* Very Light Gray */
+    --pst-color-on-surface: #EDEDED;
+    /* Lighter Gray */
+    --pst-color-panel-background: var(--pst-color-background);
+    --pst-color-link: var(--pst-color-primary);
+    --pst-color-link-hover: var(--pst-color-secondary);
+    --pst-color-inline-code: #D64309;
+    /* Light Red */
+    --pst-color-target: #C4D600;
+    /* Green */
+
+    .only-dark {
+        display: none !important;
+    }
+
+    /* Header styling for light theme */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--pst-color-primary);
+        /* Drexel Blue */
+        border-bottom: 2px solid var(--pst-color-secondary);
+        /* Drexel Yellow */
+    }
+}
+
+/* Dark theme */
+html[data-theme="dark"] {
+    --pst-color-primary: #FFD100;
+    /* Drexel Yellow */
+    --pst-color-secondary: #002D72;
+    /* Drexel Blue */
+    --pst-color-success: #6CACE4;
+    /* Light Blue */
+    --pst-color-info: #C7E1D2;
+    /* Light Green */
+    --pst-color-warning: #D86018;
+    /* Orange */
+    --pst-color-danger: #A50021;
+    /* Red */
+    --pst-color-text-base: #ffffff;
+    /* White */
+    --pst-color-text-muted: #BCB4A5;
+    /* Warm Gray 3C */
+    --pst-color-border: #A7A8AA;
+    /* Cool Gray 6C */
+    --pst-color-shadow: var(--pst-color-background);
+    --pst-color-background: #001d48;
+    /* Drexel Blue */
+    --pst-color-on-background: #001d48;
+    /* Drexel Blue */
+    --pst-color-surface: #006298;
+    /* Dark Blue */
+    --pst-color-on-surface: #006298;
+    /* Dark Blue */
+    --pst-color-panel-background: var(--pst-color-background);
+    --pst-color-link: var(--pst-color-primary);
+    --pst-color-link-hover: var(--pst-color-secondary);
+    --pst-color-inline-code: #D86018;
+    /* Orange */
+    --pst-color-target: #FF8F1C;
+    /* Light Orange */
+
+    .only-light {
+        display: none !important;
+    }
+
+    img {
+        filter: brightness(0.8) contrast(1.2);
+    }
+
+    /* Header styling for dark theme */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--pst-color-primary);
+        /* Drexel Yellow */
+        border-bottom: 2px solid var(--pst-color-secondary);
+        /* Drexel Blue */
+    }
+}
