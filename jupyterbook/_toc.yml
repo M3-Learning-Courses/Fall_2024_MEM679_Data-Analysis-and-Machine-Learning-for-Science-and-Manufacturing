@@ -9,7 +9,7 @@ parts:
         title: "Course Materials"
         sections:
           - file: Course_Materials/syllabus
-#           - file: Course_Materials/Course_survey
+          - file: Course_Materials/Course_survey
 #           - file: Course_Materials/Survey_Response
 #           - file: Course_Materials/Final_project
 #   - caption: "Topic 1\uFE0F\u20E3"
