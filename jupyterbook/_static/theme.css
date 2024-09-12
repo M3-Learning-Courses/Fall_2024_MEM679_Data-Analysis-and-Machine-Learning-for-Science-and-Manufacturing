@@ -86,3 +86,29 @@ html[data-theme="dark"] {
         filter: brightness(0.8) contrast(1.2);
     }
 }
+
+/* Header styling for light theme */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--pst-color-primary);
+    /* Drexel Blue */
+    border-bottom: 2px solid var(--pst-color-secondary);
+    /* Drexel Yellow */
+}
+
+/* Header styling for dark theme */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--pst-color-primary);
+    /* Drexel Yellow */
+    border-bottom: 2px solid var(--pst-color-secondary);
+    /* Drexel Blue */
+}
