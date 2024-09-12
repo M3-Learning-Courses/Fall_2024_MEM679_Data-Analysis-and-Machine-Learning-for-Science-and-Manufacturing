@@ -34,10 +34,23 @@ html[data-theme="light"] {
     --pst-color-inline-code: #D64309;
     /* Light Red */
     --pst-color-target: #C4D600;
-
     /* Green */
+
     .only-dark {
         display: none !important;
+    }
+
+    /* Header styling for light theme */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--pst-color-primary);
+        /* Drexel Blue */
+        border-bottom: 2px solid var(--pst-color-secondary);
+        /* Drexel Yellow */
     }
 }
 
@@ -76,8 +89,8 @@ html[data-theme="dark"] {
     --pst-color-inline-code: #D86018;
     /* Orange */
     --pst-color-target: #FF8F1C;
-
     /* Light Orange */
+
     .only-light {
         display: none !important;
     }
@@ -85,30 +98,17 @@ html[data-theme="dark"] {
     img {
         filter: brightness(0.8) contrast(1.2);
     }
-}
 
-/* Header styling for light theme */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: var(--pst-color-primary);
-    /* Drexel Blue */
-    border-bottom: 2px solid var(--pst-color-secondary);
-    /* Drexel Yellow */
-}
-
-/* Header styling for dark theme */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: var(--pst-color-primary);
-    /* Drexel Yellow */
-    border-bottom: 2px solid var(--pst-color-secondary);
-    /* Drexel Blue */
+    /* Header styling for dark theme */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--pst-color-primary);
+        /* Drexel Yellow */
+        border-bottom: 2px solid var(--pst-color-secondary);
+        /* Drexel Blue */
+    }
 }
