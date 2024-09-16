@@ -10,7 +10,7 @@
 
 *Email:* [jca92@drexel.edu](mailto:jca92@drexel.edu)
 
-*Office Hours:* Tuesday 11:00-12:00 pm - Curtis 262, or by appointment
+*Office Hours:* Tuesday, Thursday 11:00-12:00 pm - Curtis 262, or by appointment
 
 ---
 
@@ -224,97 +224,30 @@ We are in the midst of an unprecedented pandemic. We want to ensure the safety o
 
 ### Grading Rubric
 
-<table class="center" style=100 width="75%">
-    <style>
-    tr:nth-child(even) {
-    background-color: #D6EEEE;
-    }
-    </style>
-  <tr>
-    <th style = "text-align:center">Topic</th>
-    <th style = "text-align:center">Percentage</th>
-  </tr>
-  <tr>
-    <td style = "text-align:center">Homework</td>
-    <td style = "text-align:center">30</td>
-  </tr>
-  <tr>
-    <td style = "text-align:center">Final Presentation</td>
-    <td style = "text-align:center">30</td>
-  </tr>
-  <tr>
-    <td style = "text-align:center">Final Exam</td>
-    <td style = "text-align:center">30</td>
-  </tr>
-  <tr>
-    <td style = "text-align:center">Class Participation</td>
-    <td style = "text-align:center">10</td>
-  </tr>
-</table>
+| Topic               | Percentage |
+|---------------------|------------|
+| Homework            | 30         |
+| Final Presentation  | 30         |
+| Final Exam          | 30         |
+| Class Participation | 10         |
 
 ---
 
 ### Grading Scale
 
-<table class="center" style=100 width="75%">
-    <style>
-    tr:nth-child(even) {
-    background-color: #D6EEEE;
-    }
-    </style>
+| Score | Grade     |
+|-------|-----------|
+| A     | 93-100    |
+| A-    | 90-92     |
+| B+    | 87-90     |
+| B     | 83-86     |
+| B-    | 80-82     |
+| C+    | 76-79     |
+| C     | 73-75     |
+| C-    | 70-73     |
+| D     | 60-69     |
+| F     | <60       |
 
-  <tr>
-    <th style = "text-align:center">Score</th>
-    <th style = "text-align:center">Grade</th>
-  </tr>
-   <tr>
-    <th style = "text-align:center">A</th>
-    <th style = "text-align:center">93-100</th>
-  </tr>
-   <tr>
-    <th style = "text-align:center">A-</th>
-    <th style = "text-align:center">90-92</th>
-  </tr>
-   <tr>
-    <th style = "text-align:center">B+</th>
-    <th style = "text-align:center">87-90</th>
-  </tr>
-  <tr>
-    <th style = "text-align:center">B+</th>
-    <th style = "text-align:center">87-90</th>
-  </tr>
-     <tr>
-    <th style = "text-align:center">B</th>
-    <th style = "text-align:center">83-86</th>
-  </tr>
-     <tr>
-    <th style = "text-align:center">B-</th>
-    <th style = "text-align:center">80-82</th>
-  </tr>
-     <tr>
-    <th style = "text-align:center">C+</th>
-    <th style = "text-align:center">76-79</th>
-  </tr>
-     <tr>
-    <th style = "text-align:center">C</th>
-    <th style = "text-align:center">73-75</th>
-  </tr>
-    </tr>
-     <tr>
-    <th style = "text-align:center">C-</th>
-    <th style = "text-align:center">70-73</th>
-  </tr>
-    </tr>
-     <tr>
-    <th style = "text-align:center">D</th>
-    <th style = "text-align:center">60-69</th>
-  </tr>
-    </tr>
-     <tr>
-    <th style = "text-align:center">F</th>
-    <th style = "text-align:center"><60</th>
-  </tr>
-</table>
 
 Note, Prof. Agar has the discretion to curve the class grades. Curves will never be applied in a way that decreases your grades below what is specified in the grading scale.
 
