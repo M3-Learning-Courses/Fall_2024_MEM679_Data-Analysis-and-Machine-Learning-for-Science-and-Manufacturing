@@ -14,67 +14,14 @@ For your assignment, you are required to create and manage your software develop
 
 #### GitHub Repository Rubric
 
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        /*Apply global styles to table, th, td, and tr*/
-        table, th, td, tr {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-        /*Center the table*/
-        table.center {
-            margin-left: auto;
-            margin-right: auto;
-        }
-        /*Style the header*/
-        th {
-            background-color: #f2f2f2;
-            text-align: center;
-            padding: 15px;
-        }
-        /*Style the cells*/
-        td {
-            text-align: center;
-            padding: 10px;
-        }
-        /*Apply zebra-striping*/
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
-    <table class="center" style="width: auto"> <!-- Changed width to auto -->
-        <tr>
-            <th>Topic</th>
-            <th>Percentage</th>
-            <th>Points Scored</th>
-        </tr>
-        <tr>
-            <td>Code Functionality - <i>How much functionality is included in the code?</i></td>
-            <td>40</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>In-code Documentation - <i>How readable is your code?</i></td>
-            <td>15</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Code Reusability - <i>How easy is it for someone to reuse and extend your code?</i></td>
-            <td>25</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Usage Documentation - <i>How easy is it for someone new to your code to use it?</i></td>
-            <td>20</td>
-            <td></td>
-        </tr>
-    </table>
-</body>
-</html>
+| **Topic**                                        | **Percentage** | **Points Scored** |
+|--------------------------------------------------|----------------|-------------------|
+| Code Functionality - _How much functionality is included in the code?_    | 40             |                   |
+| In-code Documentation - _How readable is your code?_                      | 15             |                   |
+| Code Reusability - _How easy is it for someone to reuse and extend your code?_ | 25             |                   |
+| Usage Documentation - _How easy is it for someone new to your code to use it?_ | 20             |                   |
+
+
 
 #### Hints
 
@@ -102,127 +49,25 @@ You will be required to prepare a 12-minute presentation describing your final p
 
 #### Presentation Rubric
 
-<table class="center" style=100 width="100%">
-    <style>
-    tr:nth-child(even) {
-    background-color: #FFFFFF;}
-    border: 1px solid black;
-    border-collapse: collapse;
-    </style>
-    <colgroup>
-       <col span="1" style="width: 15%;">
-       <col span="1" style="width: 75%;">
-       <col span="1" style="width: 5%;">
-       <col span="1" style="width: 5%;">
-    </colgroup>
-  <tr>
-    <th style = "text-align:center">Category</th>
-    <th style = "text-align:center">Scoring Criteria</th>
-    <th style = "text-align:center">Total Points</th>
-    <th style = "text-align:center">Points Scored</th>
-  </tr>
-  <tr>
-    <td rowspan="3" style = "text-align:center"> <b>Organization (15 points)</b></td>
-    <td style = "text-align:center">The type of presentation is appropriate for the topic and audience. </td>
-    <td style = "text-align:center">5</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td style = "text-align:center">Information is presented in a logical sequence.</td>
-    <td style = "text-align:center">5</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td style = "text-align:center">Presentation includes appropriate citations </td>
-    <td style = "text-align:center">5</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td rowspan="6" style = "text-align:center"><b>Content (45 points) </b></td>
-    <td style = "text-align:center">Introduction is attention-getting, establishes the problem well, and establishes a framework for the rest of the presentation.</td>
-    <td style = "text-align:center">5</td>
-    <td>&nbsp;</td>
-  </tr>
-    <tr>
-    <td style = "text-align:center"> Technical terms are well-defined in language appropriate for the target audience. </td>
-    <td style = "text-align:center">5</td>
-    <td>&nbsp;</td>
-  </tr>
-    <tr>
-    <td style = "text-align:center"> Presentation contains accurate information.  </td>
-    <td style = "text-align:center">10</td>
-    <td>&nbsp;</td>
-  </tr>
-    <tr>
-    <td style = "text-align:center"> Material included is relevant to the overall message/purpose.
-    </td>
-    <td style = "text-align:center">10</td>
-    <td>&nbsp;</td>
-  </tr>
-      <tr>
-    <td style = "text-align:center"> Appropriate amount of material is prepared, and points made reflect well their relative importance.
-    </td>
-    <td style = "text-align:center">10</td>
-    <td>&nbsp;</td>
-  </tr>
-    <tr>
-    <td style = "text-align:center"> There is an obvious conclusion summarizing the presentation.
-    </td>
-    <td style = "text-align:center">5</td>
-    <td>&nbsp;</td>
-  </tr>
-    <tr>
-    <td rowspan="6" style = "text-align:center"> <b>Presentation (40 points)</b>
-    </td>
-    <td style = "text-align:center"> Speakers maintains good eye contact with the
-audience and is appropriately animated (e.g.,
-gestures, moving around, etc.)</td>
-    <td style = "text-align:center">5</td>
-    <td>&nbsp;</td>
-  </tr>
-      <tr>
-    <td style = "text-align:center"> Speaker uses a clear, audible voice.
-    </td>
-    <td style = "text-align:center">5</td>
-    <td>&nbsp;</td>
-  </tr>
-    </tr>
-      <tr>
-    <td style = "text-align:center"> Delivery is poised, controlled, and smooth.
-    </td>
-    <td style = "text-align:center">5</td>
-    <td>&nbsp;</td>
-  </tr>
-    <tr>
-    <td style = "text-align:center"> Visual aids are well prepared, informative,
-effective, and not distracting
-    </td>
-    <td style = "text-align:center">10</td>
-    <td>&nbsp;</td>
-  </tr>
-      <tr>
-    <td style = "text-align:center"> Length of presentation is within the assigned
-time limits.
-    </td>
-    <td style = "text-align:center">5</td>
-    <td>&nbsp;</td>
-  </tr>
-        <tr>
-    <td style = "text-align:center"> Information was well communicated.
-    </td>
-    <td style = "text-align:center">10</td>
-    <td>&nbsp;</td>
-  </tr>
-    <tr>
-    <td style = "text-align:center"> <b> Score </b>
-    </td>
-    <td style = "text-align:center"> <b> Total </b>
-    </td>
-    <td style = "text-align:center"> <b> 100 </b>
-    </td>
-    <td>&nbsp;</td>
-  </tr>
-</table>
+| **Category**                      | **Scoring Criteria**                                                                                                                                                       | **Total Points** | **Points Scored** |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------------|
+| **Organization (15 points)**       | The type of presentation is appropriate for the topic and audience.                                                                                                        | 5                |                   |
+|                                    | Information is presented in a logical sequence.                                                                                                                            | 5                |                   |
+|                                    | Presentation includes appropriate citations.                                                                                                                               | 5                |                   |
+| **Content (45 points)**            | Introduction is attention-getting, establishes the problem well, and establishes a framework for the rest of the presentation.                                              | 5                |                   |
+|                                    | Technical terms are well-defined in language appropriate for the target audience.                                                                                          | 5                |                   |
+|                                    | Presentation contains accurate information.                                                                                                                                | 10               |                   |
+|                                    | Material included is relevant to the overall message/purpose.                                                                                                              | 10               |                   |
+|                                    | Appropriate amount of material is prepared, and points made reflect well their relative importance.                                                                        | 10               |                   |
+|                                    | There is an obvious conclusion summarizing the presentation.                                                                                                              | 5                |                   |
+| **Presentation (40 points)**       | Speaker maintains good eye contact with the audience and is appropriately animated (e.g., gestures, moving around, etc.)                                                    | 5                |                   |
+|                                    | Speaker uses a clear, audible voice.                                                                                                                                       | 5                |                   |
+|                                    | Delivery is poised, controlled, and smooth.                                                                                                                                | 5                |                   |
+|                                    | Visual aids are well prepared, informative, effective, and not distracting.                                                                                                | 10               |                   |
+|                                    | Length of presentation is within the assigned time limits.                                                                                                                 | 5                |                   |
+|                                    | Information was well communicated.                                                                                                                                        | 10               |                   |
+| **Score**                          | **Total**                                                                                                                                                                  | **100**          |                   |
+
 
 ### Peer Reviews (20%)
 
