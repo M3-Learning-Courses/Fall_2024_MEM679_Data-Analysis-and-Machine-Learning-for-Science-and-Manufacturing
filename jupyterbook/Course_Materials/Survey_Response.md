@@ -1,3 +1,0 @@
-# Survey Responses
-
-<iframe width="100%" height="1200px" src="https://forms.office.com/Pages/DesignPageV2.aspx?prevorigin=Marketing&origin=NeoPortalPage&subpage=design&id=-uZkNr1HpkWWcIxPCA-Mpn0fYfbsd-NCvIuX4uXigRFUOTEwTEY4Mk1XQVFCMFI4M1dMMTFWRDBWVi4u&analysis=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
