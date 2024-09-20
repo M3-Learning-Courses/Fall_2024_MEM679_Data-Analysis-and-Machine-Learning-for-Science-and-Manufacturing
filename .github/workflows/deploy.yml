@@ -26,6 +26,14 @@ jobs:
         with:
           python-version: 3.11
 
+      - name: Cache Python dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
@@ -34,13 +42,19 @@ jobs:
         run: |
           jupyter-book build ./jupyterbook
 
+      - name: Check if SMB share is available
+        run: |
+          if [ ! -d "/mnt/drexel_web/MEM679" ]; then
+            echo "SMB share not available, exiting."
+            exit 1
+          fi
+
       # Upload artifact and copy to SMB share
       - name: Upload and Deploy
         if: contains(github.event.head_commit.message, '#push')
         run: |
-          id
-          SMBSHARE="/mnt/drexel_web/MEM679" &&
-          rm -rf /mnt/drexel_web/MEM679/* &&
-          JBPATH="./jupyterbook" &&
+          SMBSHARE="/mnt/drexel_web/MEM679"
+          JBPATH="./jupyterbook"
+          echo "Deploying to $SMBSHARE"
+          rm -rf $SMBSHARE/*
           cp -r $JBPATH/_build/html/* $SMBSHARE
-
