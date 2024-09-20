@@ -1,9 +1,6 @@
 name: deploy-book
 
-on:
-  push:
-    branches:
-      - main
+on: push
 
 env:
   BASE_URL: /${{ github.event.repository.name }}
@@ -14,6 +11,7 @@ concurrency:
 
 jobs:
   deploy-book:
+    if: github.repository == 'jagar2/Fall_2024_679_Dev'
     runs-on: self-hosted
     permissions:
       pages: write
