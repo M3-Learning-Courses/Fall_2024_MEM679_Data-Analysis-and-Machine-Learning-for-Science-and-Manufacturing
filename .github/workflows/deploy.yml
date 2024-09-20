@@ -1,9 +1,6 @@
 name: deploy-book
 
-on:
-  push:
-    branches:
-      - main
+on: push
 
 env:
   BASE_URL: /${{ github.event.repository.name }}
@@ -14,18 +11,29 @@ concurrency:
 
 jobs:
   deploy-book:
-    #if: github.actor == 'jagar2' && github.repository != 'jagar2/Fall_2024_MEM679_Data-Analysis-and-Machine-Learning-for-Science-and-Manufacturing'
+    if: github.repository == 'jagar2/Fall_2024_679_Dev'
     runs-on: self-hosted
     permissions:
       pages: write
       id-token: write
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v4
         with:
           python-version: 3.11
+
+      - name: Cache Python dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
       - name: Install dependencies
         run: |
@@ -35,13 +43,19 @@ jobs:
         run: |
           jupyter-book build ./jupyterbook
 
+      - name: Check if SMB share is available
+        run: |
+          if [ ! -d "/mnt/drexel_web/MEM679" ]; then
+            echo "SMB share not available, exiting."
+            exit 1
+          fi
+
       # Upload artifact and copy to SMB share
       - name: Upload and Deploy
         if: contains(github.event.head_commit.message, '#push')
         run: |
-          id
-          SMBSHARE="/mnt/drexel_web/MEM679" &&
-          rm -rf /mnt/drexel_web/MEM679/* &&
-          JBPATH="./jupyterbook" &&
+          SMBSHARE="/mnt/drexel_web/MEM679"
+          JBPATH="./jupyterbook"
+          echo "Deploying to $SMBSHARE"
+          rm -rf $SMBSHARE/*
           cp -r $JBPATH/_build/html/* $SMBSHARE
-
