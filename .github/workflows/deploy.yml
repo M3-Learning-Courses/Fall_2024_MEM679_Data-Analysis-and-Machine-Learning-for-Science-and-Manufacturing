@@ -41,6 +41,7 @@ jobs:
         run: |
           id
           SMBSHARE="/mnt/drexel_web/MEM679" &&
+          rm -rf /mnt/drexel_web/MEM679/* &&
           JBPATH="./jupyterbook" &&
           cp -r $JBPATH/_build/html/* $SMBSHARE
 
