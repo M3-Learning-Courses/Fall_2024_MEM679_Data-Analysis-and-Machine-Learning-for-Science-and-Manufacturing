@@ -6,7 +6,7 @@
 
 The objective of this homework is to introduce you to Python package management, graphical game development using `pygame`, and modern software engineering practices such as continuous integration and documentation. You will create a Python package for the classic Minesweeper game, using `pygame` for the graphical interface. This exercise emphasizes the importance of structuring code with classes, organizing it into Python files and packages, and employing tools like PyScaffold to automate project setup, testing, and documentation generation.
 
-To complete this homework, it is recommended to follow the PyScaffold Tutorial {doc}`Homework 2: PyScaffold Tutorial            <../../topic_4_tools_for_software_development/2_pyscaffold_tutorial>`
+To complete this homework, it is recommended to follow the PyScaffold Tutorial {doc}`Homework 2: PyScaffold Tutorial            <../../topic_3/2_pyscaffold_tutorial>`
 
 ## Prerequisites
 
