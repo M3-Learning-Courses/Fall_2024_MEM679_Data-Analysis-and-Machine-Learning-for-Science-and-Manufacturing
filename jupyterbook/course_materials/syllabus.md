@@ -155,6 +155,15 @@ Attendance and active participation are crucial for success in this course. Any 
 
 ---
 
+
+## Software Use and Cybersecurity
+
+Cybersecurity is a critical concern in the digital age, and it’s important to be aware of the risks associated with software use while taking necessary precautions. Although it's impossible to be completely immune to cyber threats, we can minimize risks. In this course, we will use open-source software tools, some of which are under continuous development, making them more challenging to fully secure against cybersecurity threats. The process of approving software at Drexel for this course is time- and cost-prohibitive. Therefore, please consider all data used in this course as open data. If you have sensitive or proprietary data, do not use it for course activities.
+
+If you are concerned about revealing personally identifiable information when using non-enterprise software, accommodations can be made. If you have any concerns regarding the software used in this course, please contact Prof. Agar or Drexel Information Security. If necessary, we will make accommodations to ensure you can complete the course without using protected data and by using aliases to protect your identity.
+
+---
+
 ## Exams
 
 We will have a pen-and-paper based final exam. This will test your understanding of the concepts covered in the course, and will require that you are able to read and interpret code. You will not be expected to write code during the final.
