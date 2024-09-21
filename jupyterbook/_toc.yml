@@ -3,25 +3,32 @@ root: intro
 options:
   numbered: true
 parts:
-  - caption: "Course Content \U0001F4DC"
+  - caption: "📚 Course Content"
     chapters:
       - file: course_materials/syllabus
-        title: Syllabus
+        title: "📄 Syllabus"
       - file: course_materials/final_project
-        title: "Final Project"
-  - caption: "Pre-Course Materials"
+        title: "📝 Final Project"
+  - caption: "📋 Pre-Course Materials"
     chapters:
       - file: pre_class_survey/preclass_survey
-        title: "Pre-class Survey"
+        title: "📝 Pre-class Survey"
       - file: pre_class_survey/survey_responses
-        title: "Pre-class Survey Response"
-  - caption: "Topic 1: Why is Data Analysis the Most Important Skill"
+        title: "📊 Pre-class Survey Response"
+  - caption: "📊 Topic 1: Why is Data Analysis the Most Important Skill"
     chapters:
       - file: topic_1/Importance_of_Data_Analysis
-  # - caption: "Topic 2: Challenges in Data Analysis"
+        title: "📊 Importance of Data Analysis"
+  - caption: "📝 Homework"
+    chapters:
+      - file: homework/homework_1_whitepaper
+        title: "1️⃣ Project Whitepaper"
+
+        
+  # - caption: "📉 Topic 2: Challenges in Data Analysis"
   #   chapters:
   #     - file: topic_2_Challenges_in_Data_Analysis/Challenges in Data Analysis
-  # - caption: "Topic 3: Tools for Computing in Python"
+  # - caption: "💻 Topic 3: Tools for Computing in Python"
   #   chapters:
   #     - file: topic_3_computing_env/1_setting_up_your_computing_environment
   #     - file: topic_3_computing_env/2_Installing_a_python_interpreter
@@ -29,7 +36,7 @@ parts:
   #     - file: topic_3_computing_env/4_python_in_vscode
   #     - file: topic_3_computing_env/5_Jupyter_Notebook_in_VScode
   #     - file: topic_3_computing_env/6_Example_Notebook_VScode
-  # - caption: "Topic 4: Tools for Software Development"
+  # - caption: "🛠️ Topic 4: Tools for Software Development"
   #   chapters:
   #     - file: topic_4_tools_for_software_development/1_Introduction_to_GIT
   #     - file: topic_4_tools_for_software_development/2_pyscaffold_tutorial
@@ -76,7 +83,7 @@ parts:
   # - caption: "🥧 Symbolic Python"
   #   chapters:
   #     - file: topic_10_symbolic_python/SymPy/SymPy
-  # - caption: "Scientific Data Management"
+  # - caption: "💾 Scientific Data Management"
   #   chapters:
   #     - file: topic_11_Scientific_Data_Management/Introduction_to_python
   #       title: "💾 Scientific Data Management"
@@ -90,15 +97,15 @@ parts:
   # - caption: "📊➡️🧠 Supervised Machine Learning"
   #   chapters:
   #     - file: topic_13_Supervised_ML/0_Supervised_Learning
-  # - caption: " 🧩 Unsupervised Learning"
+  # - caption: "🧩 Unsupervised Learning"
   #   chapters:
   #     - file: Topic_14_unsupervised_learning/Objectives
-  #       title: "Unsupervised Learning"
+  #       title: "🧩 Unsupervised Learning"
   #       sections:
   #         - file: Topic_14_unsupervised_learning/1_Clustering_Algorithms
   #         - file: Topic_14_unsupervised_learning/2_Decomposition_Algorithims
   #         - file: Topic_14_unsupervised_learning/3_Manifold_Learning
-  # - caption: "Neural Networks PyTorch"
+  # - caption: "🕸️ Neural Networks PyTorch"
   #   chapters:
   #     - file: Topic_15_PyTorch_NNs/Objectives
   #       title: "🕸️ Deep Learning with Pytorch"
@@ -111,13 +118,11 @@ parts:
   #         - file: Topic_15_PyTorch_NNs/6_autogradqs_tutorial
   #         - file: Topic_15_PyTorch_NNs/7_optimization_tutorial
   #         - file: Topic_15_PyTorch_NNs/8_saveloadrun_tutorial
-  # - caption: "📝 Homework"
+
   #   chapters:
   #     - file: homework/homework
   #       title: "📝 Assignments"
-  #       sections:
-  #         - file: homework/homework_1/homework_1_whitepaper
-  #           title: "1️⃣ Project Whitepaper"
+
   #         - file: homework/homework_2/homework2
   #           title: "2️⃣ Building a Package for a Graphical Game of Tic-Tac-Toe"
   #         - file: homework/homework_3/homework_3
@@ -128,6 +133,3 @@ parts:
   #           title: "5️⃣ Using DataFed for Data Management"
   #         - file: homework/homework_6/homework_6
   #           title: "6️⃣ Applying Machine Learning"
-  # - caption: "Additional Resources"
-  #   chapters:
-  #     - file: resources/markdown
