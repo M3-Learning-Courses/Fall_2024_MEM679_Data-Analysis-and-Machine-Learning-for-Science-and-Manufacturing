@@ -19,14 +19,13 @@ parts:
     chapters:
       - file: topic_1/Importance_of_Data_Analysis
         title: "📊 Importance of Data Analysis"
+      - file: topic_1/Challenges in Data Analysis
+        title: 📉 Challenges in Data Analysis
   - caption: "📝 Homework"
     chapters:
       - file: homework/homework_1_whitepaper
         title: "1️⃣ Project Whitepaper"
         
-  # - caption: "📉 Topic 2: Challenges in Data Analysis"
-  #   chapters:
-  #     - file: topic_2_Challenges_in_Data_Analysis/Challenges in Data Analysis
   # - caption: "💻 Topic 3: Tools for Computing in Python"
   #   chapters:
   #     - file: topic_3_computing_env/1_setting_up_your_computing_environment
