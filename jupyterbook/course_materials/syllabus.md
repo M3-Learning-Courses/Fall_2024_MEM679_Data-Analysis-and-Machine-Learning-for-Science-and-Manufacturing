@@ -4,23 +4,23 @@
 
 ### Instructor Information
 
-*Name:* Joshua C. Agar
+_Name:_ Joshua C. Agar
 
-*Office:* Curtis 262
+_Office:_ Curtis 262
 
-*Email:* [jca92@drexel.edu](mailto:jca92@drexel.edu)
+_Email:_ [jca92@drexel.edu](mailto:jca92@drexel.edu)
 
-*Office Hours:* Tuesday, Thursday 11:00-12:00 pm - Curtis 262, or by appointment
+_Office Hours:_ Tuesday, Thursday 11:00-12:00 pm - Curtis 262, or by appointment
 
 ---
 
 ## Class Information
 
-*Dates:* Sep 19, 2023 - Dec 10, 2023
+_Dates:_ Sep 19, 2023 - Dec 10, 2023
 
-*Times:* Tuesday/Thursday 02:00 pm - 03:20 pm
+_Times:_ Tuesday/Thursday 02:00 pm - 03:20 pm
 
-*Class Room:* Randell 238A
+_Class Room:_ Randell 238A
 
 ---
 
@@ -41,7 +41,7 @@ This course is crafted to be universally applicable, tailored to benefit partici
 ### Prerequisites
 
 1. **Programming Skills**: Knowledge of programming and basic programming logic is mandatory. The course employs Python as the primary programming language for implementation.
-  
+
 2. **Mathematical Background**: While machine learning is inherently mathematical, an in-depth understanding of advanced mathematics is not a prerequisite for this course. If you do possess strong mathematical skills, you are encouraged to apply them.
 
 ---
@@ -85,31 +85,29 @@ Upon completion of this course, participants should be able to:
 4. **Basic Understanding of Supervised and Unsupervised Linear Machine Learning**: Grasp the fundamental concepts behind supervised and unsupervised linear models, their applicability, and limitations.
 
 5. **Exposure to a Variety of Deep Learning Topics**: Delve into advanced topics in deep learning including:
-    - **Classification and Regression**: Understand the fundamental building blocks for solving classification and regression problems.
-    - **Theory and Optimization Methods in Deep Learning**: Master the theoretical basis and optimization strategies essential for deep learning applications.
-    - **Segmentation Techniques**: Learn state-of-the-art segmentation methods applicable in fields like image processing and robotics.
-    - **Physics-Informed and Physics-Constrained Machine Learning Models**: Explore how domain knowledge can be incorporated into machine learning models for more accurate predictions and insights.
+   - **Classification and Regression**: Understand the fundamental building blocks for solving classification and regression problems.
+   - **Theory and Optimization Methods in Deep Learning**: Master the theoretical basis and optimization strategies essential for deep learning applications.
+   - **Segmentation Techniques**: Learn state-of-the-art segmentation methods applicable in fields like image processing and robotics.
+   - **Physics-Informed and Physics-Constrained Machine Learning Models**: Explore how domain knowledge can be incorporated into machine learning models for more accurate predictions and insights.
 
 ---
 
 ### Course Schedule
 
-
-| Date         | Lecture 1 Topic                                          | Lecture 2 Topic                                                | Homework Assignments                                                    |
-|--------------|----------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------|
-| Week 1: 9/24, 9/26 | Why Data Analysis and Machine Learning is one of the Most Important Skills | Importance and Challenges in Scientific Data Analysis | Homework 1: One-Page Whitepaper: Finding a Data Type, Set, and Source for the Course (**Due 10/2**)         |
-| Week 2: 10/1, 10/3 | Introduction to Python ecosystems, packages, documentation, and Git      | Introduction to Python: Variables, Operators, and Data Types   | Homework 2: Building a Game with ChatGPT: Ultimate Texas Hold'em    (**Due 10/17**)     |
-| Week 3: 10/8, 10/10 | Introduction to Python: Flow Control, Loops, Functions, and Generators | Introduction to Python: Lambda Functions, Classes, *args and **kwargs, and Decorators |        Homework 3: Meeting with Prof. Agar on Project               |
-| Week 4: 10/15, 10/17 | No Class - Professor Agar is on Travel                     | No Class - Professor Agar is on Travel                        | **No Homework**  |
-| Week 5: 10/22, 10/24 | Numpy, Scipy, and Visualization                           | Interactive Visualization, Symbolic toolkits, Graphical User Interfaces | Homework 5: Graph, Fit, and Visualize Your Data (**Due 10/30**)             |
-| Week 6: 10/29, 10/31 | Databases and Scientific Data Management Systems           | Image Analysis and Processing                                 | Homework 6: Build a Data and Metadata Pipeline    (**Due 11/6**)          |
-| Week 7: 11/5, 11/7   | Linear Supervised Machine Learning                         | Linear Unsupervised Machine Learning                          | Homework 7: Conventional Pipelines for Data Analysis  (**Due 11/13**)       |
-| Week 8: 11/12, 11/14 | Introduction to Deep Learning                              | Introduction to Pytorch Ecosystem                             | Homework 8: Training your First Deep Learning Model - Example Data (**Due 11/22**) |
-| Week 9: 11/19, 11/21 | Deep learning Classification and Regression                |        Unsupervised Learning Autoencoders                           | Homework 9: Exploring Your Data with Deep Learning (**Due 11/26**)           |
-| Week 10: 11/26, 11/28 |          Physics Constrained and Physics Informed Neural Networks                |     **No Class - Thanksgiving**  | No Homework - Project Preparation                            |
-| Week 11: 12/3, 12/5  | Project Presentation                                      | Project Presentation                                           |                                                              |
-| Week 12: 12/10, 12/12 | Final Exam                                               |                                                                |                                                              |
-
+| Date                  | Lecture 1 Topic                                                            | Lecture 2 Topic                                                                          | Homework Assignments                                                                                |
+| --------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Week 1: 9/24, 9/26    | Why Data Analysis and Machine Learning is one of the Most Important Skills | Importance and Challenges in Scientific Data Analysis                                    | Homework 1: One-Page Whitepaper: Finding a Data Type, Set, and Source for the Course (**Due 10/2**) |
+| Week 2: 10/1, 10/3    | Introduction to Python ecosystems, packages, documentation, and Git        | Introduction to Python: Variables, Operators, and Data Types                             | Homework 2: Building a Game with ChatGPT: Ultimate Texas Hold'em (**Due 10/17**)                    |
+| Week 3: 10/8, 10/10   | Introduction to Python: Flow Control, Loops, Functions, and Generators     | Introduction to Python: Lambda Functions, Classes, \*args and \*\*kwargs, and Decorators | Homework 3: Meeting with Prof. Agar on Project                                                      |
+| Week 4: 10/15, 10/17  | No Class - Professor Agar is on Travel                                     | No Class - Professor Agar is on Travel                                                   | **No Homework**                                                                                     |
+| Week 5: 10/22, 10/24  | Numpy, Scipy, and Visualization                                            | Interactive Visualization, Symbolic toolkits, Graphical User Interfaces                  | Homework 5: Graph, Fit, and Visualize Your Data (**Due 10/30**)                                     |
+| Week 6: 10/29, 10/31  | Databases and Scientific Data Management Systems                           | Image Analysis and Processing                                                            | Homework 6: Build a Data and Metadata Pipeline (**Due 11/6**)                                       |
+| Week 7: 11/5, 11/7    | Linear Supervised Machine Learning                                         | Linear Unsupervised Machine Learning                                                     | Homework 7: Conventional Pipelines for Data Analysis (**Due 11/13**)                                |
+| Week 8: 11/12, 11/14  | Introduction to Deep Learning                                              | Introduction to Pytorch Ecosystem                                                        | Homework 8: Training your First Deep Learning Model - Example Data (**Due 11/22**)                  |
+| Week 9: 11/19, 11/21  | Deep learning Classification and Regression                                | Unsupervised Learning Autoencoders                                                       | Homework 9: Exploring Your Data with Deep Learning (**Due 11/26**)                                  |
+| Week 10: 11/26, 11/28 | Physics Constrained and Physics Informed Neural Networks                   | **No Class - Thanksgiving**                                                              | No Homework - Project Preparation                                                                   |
+| Week 11: 12/3, 12/5   | Project Presentation                                                       | Project Presentation                                                                     |                                                                                                     |
+| Week 12: 12/10, 12/12 | Final Exam                                                                 |                                                                                          |                                                                                                     |
 
 ---
 
@@ -133,7 +131,7 @@ Programming is a skill acquired through continuous practice. This course aims to
 
 ## Homework
 
-The only way to learn coding is to solve problems! It is essential for students to complete all of the homework assignments. The purpose of homeworks will for you to practice the concepts covered in class.  Completing all the homework problems is the best way to practice and prepare for quizzes and exams.
+The only way to learn coding is to solve problems! It is essential for students to complete all of the homework assignments. The purpose of homeworks will for you to practice the concepts covered in class. Completing all the homework problems is the best way to practice and prepare for quizzes and exams.
 
 Homework assignments are designed to enhance your skills in independent problem-solving. While discussions with peers are encouraged, the actual coding work must be your own. Homework assignments will lay the foundation for your final project and must be submitted via a shared GitHub repository.
 
@@ -145,7 +143,7 @@ Homework should be submitted on GitHub via Github Classroom. If you are of the o
 
 ## Use of Generative AI (e.g., ChatGPT)
 
-Generative AI tools like ChatGPT have revolutionized the pace of code writing. These tools are allowed and encouraged for use in assignments, provided you learn from the code generated. High code quality is expected, especially since generative AI tools are permitted. Note that the final exam will be a pen-and-paper exam, so you will be responsible for learning the material. The use of generative AI tools during the final exam is strictly prohibited. 
+Generative AI tools like ChatGPT have revolutionized the pace of code writing. These tools are allowed and encouraged for use in assignments, provided you learn from the code generated. High code quality is expected, especially since generative AI tools are permitted. Note that the final exam will be a pen-and-paper exam, so you will be responsible for learning the material. The use of generative AI tools during the final exam is strictly prohibited.
 
 ---
 
@@ -154,7 +152,6 @@ Generative AI tools like ChatGPT have revolutionized the pace of code writing. T
 Attendance and active participation are crucial for success in this course. Any absences should be communicated to the instructor in advance and must be supported by documentation if requested. Missed in-class activities can be made up within one week as homework.
 
 ---
-
 
 ## Software Use and Cybersecurity
 
@@ -168,7 +165,7 @@ If you are concerned about revealing personally identifiable information when us
 
 We will have a pen-and-paper based final exam. This will test your understanding of the concepts covered in the course, and will require that you are able to read and interpret code. You will not be expected to write code during the final.
 
-*There will be no make-up exams*. If an exam is missed because of an emergency please contact Prof. Agar to make arrangements. If there is a known scheduling conflict with an exam it is expected that you notify Prof. Agar at least 1 week prior to the exam, or when the scheduling conflict arises.
+_There will be no make-up exams_. If an exam is missed because of an emergency please contact Prof. Agar to make arrangements. If there is a known scheduling conflict with an exam it is expected that you notify Prof. Agar at least 1 week prior to the exam, or when the scheduling conflict arises.
 
 The final exam is comprehensive and will be given during the University assigned exam time for the course. The exact time and location will be announced later in the semester. The final exam will only be given at the announced time. If a student has a conflict with another final exam, the student must contact their instructor at least two weeks in advance in order to have it resolved.
 
@@ -234,7 +231,7 @@ We are in the midst of an unprecedented pandemic. We want to ensure the safety o
 ### Grading Rubric
 
 | Topic               | Percentage |
-|---------------------|------------|
+| ------------------- | ---------- |
 | Homework            | 30         |
 | Final Presentation  | 30         |
 | Final Exam          | 30         |
@@ -244,19 +241,18 @@ We are in the midst of an unprecedented pandemic. We want to ensure the safety o
 
 ### Grading Scale
 
-| Score | Grade     |
-|-------|-----------|
-| A     | 93-100    |
-| A-    | 90-92     |
-| B+    | 87-90     |
-| B     | 83-86     |
-| B-    | 80-82     |
-| C+    | 76-79     |
-| C     | 73-75     |
-| C-    | 70-73     |
-| D     | 60-69     |
-| F     | <60       |
-
+| Score | Grade  |
+| ----- | ------ |
+| A     | 93-100 |
+| A-    | 90-92  |
+| B+    | 87-90  |
+| B     | 83-86  |
+| B-    | 80-82  |
+| C+    | 76-79  |
+| C     | 73-75  |
+| C-    | 70-73  |
+| D     | 60-69  |
+| F     | <60    |
 
 Note, Prof. Agar has the discretion to curve the class grades. Curves will never be applied in a way that decreases your grades below what is specified in the grading scale.
 
@@ -264,7 +260,7 @@ Note, Prof. Agar has the discretion to curve the class grades. Curves will never
 
 ## Getting Help
 
- Be proactive about your success in the course!  If you need help, there are many resources available to help you. Your first primary contact for help is the instructor. If you are struggling, attend office hours or send an email or teams message. Do not wait to bring issues, course related or otherwise, to the attention of the instructor. If you cannot attend office hours, send an email to the instructor to try to make other arrangements.
+Be proactive about your success in the course! If you need help, there are many resources available to help you. Your first primary contact for help is the instructor. If you are struggling, attend office hours or send an email or teams message. Do not wait to bring issues, course related or otherwise, to the attention of the instructor. If you cannot attend office hours, send an email to the instructor to try to make other arrangements.
 
 ### Accommodations for Learning Differences
 
@@ -289,7 +285,7 @@ Accommodations are to be dealt with on the basis of individual requests from stu
 
 If you encounter a schedule conflict with your course work due to the demands of religious observance, here is what you should do:
 
-- Talk  with your instructor and indicate that you will be absent from class due to observance of religious holidays.
+- Talk with your instructor and indicate that you will be absent from class due to observance of religious holidays.
 - Arrange with the instructor to complete assignments.
 
 For any further questions please refer to Drexel’s [Religious Accommodation Policy](https://drexel.edu/oed/diversity/religious-accommodations/)
