@@ -23,7 +23,6 @@ parts:
     chapters:
       - file: homework/homework_1_whitepaper
         title: "1️⃣ Project Whitepaper"
-
         
   # - caption: "📉 Topic 2: Challenges in Data Analysis"
   #   chapters:
