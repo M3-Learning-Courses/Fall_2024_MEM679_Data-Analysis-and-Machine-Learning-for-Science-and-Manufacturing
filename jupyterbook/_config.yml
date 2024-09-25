@@ -43,6 +43,6 @@ html:
 # Adds colab button to book
 launch_buttons:
   colab_url: "https://colab.research.google.com"
-  jupyterhub_url: "https://engr131.nrp-nautilus.io/"
+  jupyterhub_url: "https://jupyterhub-west.nrp-nautilus.io/"
   binderhub_url: "https://mybinder.org" # The URL for your BinderHub (e.g., https://mybinder.org)
   thebe: true
