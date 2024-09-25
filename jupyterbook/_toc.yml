@@ -21,19 +21,30 @@ parts:
         title: "📊 Importance of Data Analysis"
       - file: topic_1/Challenges in Data Analysis
         title: 📉 Challenges in Data Analysis
+  - caption: "💻 Topic 2: Tools for Computing in Python"
+    chapters:
+      - file: topic_2/1_setting_up_your_computing_environment
+        title: "🔧 Setting Up Your Computing Environment"
+      - file: topic_2/2_Installing_a_python_interpreter
+        title: "🐍 Installing a Python Interpreter"
+      - file: topic_2/3_navigating_jupyter
+        title: "📓 Navigating Jupyter"
+      - file: topic_2/4_python_in_vscode
+        title: "💻 Python in VSCode"
+      - file: topic_2/5_microsoft_copilot
+        title: "🤖 Microsoft Copilot"
+      - file: topic_2/6_Jupyter_Notebook_in_VScode
+        title: "📒 Jupyter Notebook in VSCode"
+      - file: topic_2/7_Debugging
+        title: "🐞 Debugging"
+      - file: topic_2/8_Example_Notebook_VScode
+        title: "📘 Example Notebook in VSCode"
   - caption: "📝 Homework"
     chapters:
       - file: homework/homework_1_whitepaper
         title: "1️⃣ Project Whitepaper"
         
-  # - caption: "💻 Topic 3: Tools for Computing in Python"
-  #   chapters:
-  #     - file: topic_3_computing_env/1_setting_up_your_computing_environment
-  #     - file: topic_3_computing_env/2_Installing_a_python_interpreter
-  #     - file: topic_3_computing_env/3_navigating_jupyter
-  #     - file: topic_3_computing_env/4_python_in_vscode
-  #     - file: topic_3_computing_env/5_Jupyter_Notebook_in_VScode
-  #     - file: topic_3_computing_env/6_Example_Notebook_VScode
+  
   # - caption: "🛠️ Topic 4: Tools for Software Development"
   #   chapters:
   #     - file: topic_4_tools_for_software_development/1_Introduction_to_GIT
