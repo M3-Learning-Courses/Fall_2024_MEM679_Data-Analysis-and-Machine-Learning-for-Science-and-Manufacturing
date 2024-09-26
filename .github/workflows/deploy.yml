@@ -59,3 +59,4 @@ jobs:
           echo "Deploying to $SMBSHARE"
           rm -rf $SMBSHARE/*
           cp -r $JBPATH/_build/html/* $SMBSHARE
+          cp ./web.config $SMBSHARE
