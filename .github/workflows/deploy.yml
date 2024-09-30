@@ -41,6 +41,7 @@ jobs:
 
       - name: Build the book
         run: |
+          rm -r ./jupyterbook/_build
           jupyter-book build ./jupyterbook
 
       - name: Check if SMB share is available
