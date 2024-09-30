@@ -40,7 +40,7 @@ parts:
       - file: topic_2/8_Example_Notebook_VScode
         title: "📘 Example Notebook in VSCode"
       - file: topic_2/9_Continuous_integration_continuous_deployment
-        title: "Continuous Integration and Continuous Deployment"
+        title: "🚀 Continuous Integration and Continuous Deployment"
   - caption: "📝 Homework"
     chapters:
       - file: homework/homework_1_whitepaper
