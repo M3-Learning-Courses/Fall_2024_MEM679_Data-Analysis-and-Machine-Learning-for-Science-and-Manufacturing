@@ -39,14 +39,14 @@ parts:
         title: "🐞 Debugging"
       - file: topic_2/8_Example_Notebook_VScode
         title: "📘 Example Notebook in VSCode"
-      - file: topic_2/9_Continous_intergration_continous_deployment
+      - file: topic_2/9_Continuous_integration_continuous_deployment
         title: "🚀 Continuous Integration and Continuous Deployment"
   - caption: "📝 Homework"
     chapters:
       - file: homework/homework_1_whitepaper
         title: "1️⃣ Project Whitepaper"
         
-        
+
   
   # - caption: "🛠️ Topic 4: Tools for Software Development"
   #   chapters:
