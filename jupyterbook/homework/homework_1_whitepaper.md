@@ -2,7 +2,7 @@
 
 ## Due Date
 
-**Due:** 11:59 PM EST, Thursday, 10-05-2023
+**Due:** 11:59 PM EST, Sunday, 10-05-2023
 
 ---
 
