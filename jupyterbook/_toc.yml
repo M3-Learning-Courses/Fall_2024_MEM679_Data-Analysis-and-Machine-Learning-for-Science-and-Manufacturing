@@ -46,6 +46,7 @@ parts:
       - file: homework/homework_1_whitepaper
         title: "1️⃣ Project Whitepaper"
         
+        
   
   # - caption: "🛠️ Topic 4: Tools for Software Development"
   #   chapters:
