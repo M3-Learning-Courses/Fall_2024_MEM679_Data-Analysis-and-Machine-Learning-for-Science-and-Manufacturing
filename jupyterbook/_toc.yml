@@ -45,7 +45,7 @@ parts:
         title: "🔨 Introduction to Git"
       - file: topic_3/2_pyscaffold_tutorial
         title: "🧰 PyScaffold Tutorial"
-      - file: topic_2/9_Continuous_integration_continuous_deployment
+      - file: topic_3/3_Continuous_integration_continuous_deployment
         title: "🚀 Continuous Integration and Continuous Deployment"
   - caption: "📝 Homework"
     chapters:
