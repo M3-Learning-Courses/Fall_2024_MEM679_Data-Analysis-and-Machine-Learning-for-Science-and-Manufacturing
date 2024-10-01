@@ -47,12 +47,6 @@ parts:
         title: "🧰 PyScaffold Tutorial"
       - file: topic_3/3_Continuous_integration_continuous_deployment
         title: "🚀 Continuous Integration and Continuous Deployment"
-  - caption: "📝 Homework"
-    chapters:
-      - file: homework/homework_1_whitepaper
-        title: "1️⃣ Project Whitepaper"
-      - file: homework/homework_2
-        title: "2️⃣ 🎮 Building a Game of Minesweeper 💣"
   - caption: "🐍 Introduction to Python"
     chapters:
       - file: topic_4/Introduction_to_python
@@ -80,6 +74,13 @@ parts:
             title: "🎯 Args and Kwargs"
           - file: topic_4/11_decorators
             title: "✨ Decorators"
+  - caption: "📝 Homework"
+    chapters:
+      - file: homework/homework_1_whitepaper
+        title: "1️⃣ Project Whitepaper"
+      - file: homework/homework_2
+        title: "2️⃣ 🎮 Building a Game of Minesweeper 💣"
+
 
   # - caption: "🛠️ Topic 4: Tools for Software Development"
   #   chapters:
