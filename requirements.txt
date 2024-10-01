@@ -5,4 +5,5 @@ ghp-import
 jupyter
 jupyterlab_rise
 pandas
+scikit-learn
 
