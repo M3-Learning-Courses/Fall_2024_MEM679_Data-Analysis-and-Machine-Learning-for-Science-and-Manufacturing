@@ -47,48 +47,45 @@ parts:
         title: "🧰 PyScaffold Tutorial"
       - file: topic_3/3_Continuous_integration_continuous_deployment
         title: "🚀 Continuous Integration and Continuous Deployment"
+  - caption: "🐍 Introduction to Python"
+    chapters:
+      - file: topic_4/Introduction_to_python
+        title: "🐍 Introduction to Python"
+        sections:
+          - file: topic_4/1_Introduction_to_python_operators
+            title: "🔢 Introduction to Python Operators"
+          - file: topic_4/2_datatypes
+            title: "🔡 Data Types"
+          - file: topic_4/3_If_else
+            title: "🔀 If-Else Statements"
+          - file: topic_4/4_loops
+            title: "🔁 Loops"
+          - file: topic_4/5_functions
+            title: "📜 Functions"
+          - file: topic_4/6_iterators_and_generators
+            title: "🔃 Iterators and Generators"
+          - file: topic_4/7_lambda_function
+            title: "🔨 Lambda Functions"
+          - file: topic_4/8_classes
+            title: "🛠 Classes"
+          - file: topic_4/9_Dataclasses
+            title: "📦 Dataclasses"
+          - file: topic_4/10_Args_Kwargs
+            title: "🎯 Args and Kwargs"
+          - file: topic_4/11_decorators
+            title: "✨ Decorators"
   - caption: "📝 Homework"
     chapters:
       - file: homework/homework_1_whitepaper
         title: "1️⃣ Project Whitepaper"
       - file: homework/homework_2
         title: "2️⃣ 🎮 Building a Game of Minesweeper 💣"
-  
-  
-        
 
-  
+
   # - caption: "🛠️ Topic 4: Tools for Software Development"
   #   chapters:
   #     - file: topic_4_tools_for_software_development/1_Introduction_to_GIT
   #     - file: topic_4_tools_for_software_development/2_pyscaffold_tutorial
-  # - caption: "🐍 Introduction to Python"
-  #   chapters:
-  #     - file: topic_5_python/Introduction_to_python
-  #       title: "🐍 Introduction to Python"
-  #       sections:
-  #         - file: topic_5_python/1_Introduction_to_python_operators
-  #           title: "🔢 Introduction to Python Operators"
-  #         - file: topic_5_python/2_datatypes
-  #           title: "🔡 Data Types"
-  #         - file: topic_5_python/3_If_else
-  #           title: "🔀 If-Else Statements"
-  #         - file: topic_5_python/4_loops
-  #           title: "🔁 Loops"
-  #         - file: topic_5_python/5_functions
-  #           title: "📜 Functions"
-  #         - file: topic_5_python/6_iterators_and_generators
-  #           title: "🔃 Iterators and Generators"
-  #         - file: topic_5_python/7_lambda_function
-  #           title: "🔨 Lambda Functions"
-  #         - file: topic_5_python/8_classes
-  #           title: "🛠 Classes"
-  #         - file: topic_5_python/9_Dataclasses
-  #           title: "📦 Dataclasses"
-  #         - file: topic_5_python/10_Args_Kwargs
-  #           title: "🎯 Args and Kwargs"
-  #         - file: topic_5_python/11_decorators
-  #           title: "✨ Decorators"
   # - caption: "🔢 Numpy"
   #   chapters:
   #     - file: topic_6_Numpy/Introduction_to_numpy
