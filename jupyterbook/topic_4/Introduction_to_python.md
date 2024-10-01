@@ -10,4 +10,4 @@
 {doc}`Classes                              <./8_classes>`
 {doc}`Dataclasses                          <./9_Dataclasses>`
 {doc}`Args and Kwargs                       <./10_Args_Kwargs>`
-{doc}`Decorators                           <./11_decorators>`
+{doc}`Decorators                           <./11_decorators>` 
