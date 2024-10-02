@@ -1,6 +1,6 @@
 # Homework 2: Building a Graphical Game of Minesweeper Using Pygame
 
-## Due: Thursday 10/17/2023
+## Due: Thursday 10/17/2024 by 11:59pm EST
 
 ## Objective
 
