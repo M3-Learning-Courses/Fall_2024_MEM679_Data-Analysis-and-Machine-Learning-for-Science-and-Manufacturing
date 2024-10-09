@@ -112,3 +112,12 @@ html[data-theme="dark"] {
         /* Drexel Blue */
     }
 }
+
+@media (min-width: 1200px) {
+    .content-wrapper {
+        max-width: 90%;
+        /* Adjust percentage as needed */
+        margin: 0 auto;
+        /* Center-align */
+    }
+}
