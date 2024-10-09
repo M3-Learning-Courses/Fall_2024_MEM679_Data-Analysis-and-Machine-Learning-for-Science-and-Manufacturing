@@ -1,4 +1,4 @@
-name: CI/CD
+name: CICD
 
 on:
   push:
@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-22.04
     permissions:
       contents: write
+    environment: PYPI
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
