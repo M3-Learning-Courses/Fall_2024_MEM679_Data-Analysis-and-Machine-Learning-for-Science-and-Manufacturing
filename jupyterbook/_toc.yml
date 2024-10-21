@@ -76,12 +76,6 @@ parts:
             title: "🎯 Args and Kwargs"
           - file: topic_4/11_decorators
             title: "✨ Decorators"
-  - caption: "📝 Homework"
-    chapters:
-      - file: homework/homework_1_whitepaper
-        title: "1️⃣ Project Whitepaper"
-      - file: homework/homework_2
-        title: "2️⃣ 🎮 Building a Game of Minesweeper 💣"
   - caption: "🔢 Numpy"
     chapters:
       - file: topic_5/1_Introduction_to_numpy
@@ -91,6 +85,12 @@ parts:
   - caption: "📈 Matplotlib"
     chapters:
       - file: topic_6/Introduction_to_Plotting
+  - caption: "📝 Homework"
+    chapters:
+      - file: homework/homework_1_whitepaper
+        title: "1️⃣ Project Whitepaper"
+      - file: homework/homework_2
+        title: "2️⃣ 🎮 Building a Game of Minesweeper 💣"
 
   # - caption: "🛠️ Topic 4: Tools for Software Development"
   #   chapters:
