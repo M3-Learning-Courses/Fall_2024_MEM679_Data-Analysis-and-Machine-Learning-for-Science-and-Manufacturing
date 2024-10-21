@@ -1,6 +1,6 @@
 # Homework 2: Building a Graphical Game of Minesweeper Using Pygame
 
-## Due: Thursday 10/17/2024 by 11:59pm EST
+## Due: Thursday 10/26/2024 by 11:59pm EST
 
 ## Objective
 
@@ -30,7 +30,7 @@ This will scaffold the package with a standardized project structure, including 
 
 ### 2. **Connect to GitHub Classroom**
 
-Use the provided [Github Classroom Link](https://classroom.github.com/a/IGMWKBA0) to create a repository for your assignment. Note, if you create the python repository first you will need to use the --force flag when calling putup. 
+Use the provided [Github Classroom Link](https://classroom.github.com/a/IGMWKBA0) to create a repository for your assignment. Note, if you create the python repository first you will need to use the --force flag when calling putup.
 
 ### 3. **Implement Minesweeper Game**
 
@@ -107,24 +107,24 @@ To submit your assignment, ensure your local repository is connected to the GitH
 
 Here’s the rubric adjusted to a 100-point scale:
 
-| **Category**                                | **Criteria**                                                                                      | **Points** | **Description**                                                                                                                |
-|---------------------------------------------|---------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------|
-| **Package Initialization and Structure**    | Correct use of PyScaffold to initialize package.                                                   | 8          | The package is initialized correctly using PyScaffold, following a clear and organized structure.                              |
-|                                             | Proper directory and file structure for Python package.                                            | 8          | The directory contains appropriate subdirectories (e.g., `src`, `tests`, `docs`) and files like `setup.py`, `README.md`, etc. |
-| **Game Implementation**                     | Correct and complete functionality for Minesweeper game using `pygame`.                            | 12         | The Minesweeper game works as intended, with all essential features (grid, mines, flags, win/loss detection, etc.).           |
-|                                             | Use of object-oriented programming principles, with appropriate classes.                           | 8          | Classes like `Cell`, `Board`, and `Game` are designed to structure the code logically and reduce redundancy.                  |
-|                                             | Handling edge cases (e.g., clicking flagged cells, revealing all mines when lost).                  | 4          | The game handles special cases without crashing or unexpected behavior.                                                       |
-| **Code Comments and Documentation**         | Detailed inline comments explaining logic and code behavior.                                       | 8          | Code is thoroughly commented, explaining each significant block and helping the reader understand the logic.                  |
-|                                             | Proper use of docstrings in classes and functions using Google style.                              | 8          | Every class and function has appropriate docstrings describing its purpose, parameters, and return values.                    |
-| **Automated Documentation with Sphinx**     | Successful generation of Sphinx documentation.                                                     | 8          | Sphinx documentation is correctly generated, providing clear installation instructions, function usage, and dependencies.      |
-|                                             | Includes detailed game explanation and usage examples in documentation.                            | 4          | The documentation explains how to play the game and includes working examples of how to use the code.                         |
-| **Dependencies and Requirements**           | Correct inclusion of `pygame` in the `requirements.txt` file.                                      | 4          | The package includes `pygame` and any other necessary dependencies, making it easy to install and run.                        |
-| **Testing**                                 | Unit tests achieve at least 80% code coverage.                                                     | 8          | Unit tests cover the core game logic, and coverage is at least 80%.                                                            |
-|                                             | Tests cover edge cases, including various game-ending scenarios (win/loss).                        | 8          | Tests address different scenarios such as a win, a loss, flagging, and uncovering mines.                                       |
-|                                             | Continuous integration (CI) is configured to automatically run tests.                              | 8          | CI (e.g., GitHub Actions) is set up to automatically run tests on each commit/pull request.                                    |
-| **Code Readability and Organization**       | Code is logically organized into classes and functions, following Python best practices.            | 4          | Code is modular, follows good design principles, and is easy to understand and modify.                                          |
-|                                             | Code is clean and adheres to Python conventions (PEP 8).                                           | 4          | Code follows PEP 8 standards, with proper indentation, spacing, and variable naming conventions.                              |
-| **Bonus (Optional)**                        | Package is published to TestPyPI.                                                                  | 4 (Bonus)  | The package is successfully published to TestPyPI, and the process is documented in the assignment.                            |
+| **Category**                             | **Criteria**                                                                             | **Points** | **Description**                                                                                                               |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **Package Initialization and Structure** | Correct use of PyScaffold to initialize package.                                         | 8          | The package is initialized correctly using PyScaffold, following a clear and organized structure.                             |
+|                                          | Proper directory and file structure for Python package.                                  | 8          | The directory contains appropriate subdirectories (e.g., `src`, `tests`, `docs`) and files like `setup.py`, `README.md`, etc. |
+| **Game Implementation**                  | Correct and complete functionality for Minesweeper game using `pygame`.                  | 12         | The Minesweeper game works as intended, with all essential features (grid, mines, flags, win/loss detection, etc.).           |
+|                                          | Use of object-oriented programming principles, with appropriate classes.                 | 8          | Classes like `Cell`, `Board`, and `Game` are designed to structure the code logically and reduce redundancy.                  |
+|                                          | Handling edge cases (e.g., clicking flagged cells, revealing all mines when lost).       | 4          | The game handles special cases without crashing or unexpected behavior.                                                       |
+| **Code Comments and Documentation**      | Detailed inline comments explaining logic and code behavior.                             | 8          | Code is thoroughly commented, explaining each significant block and helping the reader understand the logic.                  |
+|                                          | Proper use of docstrings in classes and functions using Google style.                    | 8          | Every class and function has appropriate docstrings describing its purpose, parameters, and return values.                    |
+| **Automated Documentation with Sphinx**  | Successful generation of Sphinx documentation.                                           | 8          | Sphinx documentation is correctly generated, providing clear installation instructions, function usage, and dependencies.     |
+|                                          | Includes detailed game explanation and usage examples in documentation.                  | 4          | The documentation explains how to play the game and includes working examples of how to use the code.                         |
+| **Dependencies and Requirements**        | Correct inclusion of `pygame` in the `requirements.txt` file.                            | 4          | The package includes `pygame` and any other necessary dependencies, making it easy to install and run.                        |
+| **Testing**                              | Unit tests achieve at least 80% code coverage.                                           | 8          | Unit tests cover the core game logic, and coverage is at least 80%.                                                           |
+|                                          | Tests cover edge cases, including various game-ending scenarios (win/loss).              | 8          | Tests address different scenarios such as a win, a loss, flagging, and uncovering mines.                                      |
+|                                          | Continuous integration (CI) is configured to automatically run tests.                    | 8          | CI (e.g., GitHub Actions) is set up to automatically run tests on each commit/pull request.                                   |
+| **Code Readability and Organization**    | Code is logically organized into classes and functions, following Python best practices. | 4          | Code is modular, follows good design principles, and is easy to understand and modify.                                        |
+|                                          | Code is clean and adheres to Python conventions (PEP 8).                                 | 4          | Code follows PEP 8 standards, with proper indentation, spacing, and variable naming conventions.                              |
+| **Bonus (Optional)**                     | Package is published to TestPyPI.                                                        | 4 (Bonus)  | The package is successfully published to TestPyPI, and the process is documented in the assignment.                           |
 
 ### Total: 100 points (plus 4 bonus points)
 
