@@ -6,4 +6,6 @@ jupyter
 jupyterlab_rise
 pandas
 scikit-learn
-
+plotly
+seaborn
+networkx
