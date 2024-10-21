@@ -82,16 +82,17 @@ parts:
         title: "1️⃣ Project Whitepaper"
       - file: homework/homework_2
         title: "2️⃣ 🎮 Building a Game of Minesweeper 💣"
-
+  - caption: "🔢 Numpy"
+    chapters:
+      - file: topic_5/1_Introduction_to_numpy
+        title: "🔢 Introduction to NumPy"
+      - file: topic_5/2_Basics_of_numpy
+        title: "📐 Basics of NumPy"
 
   # - caption: "🛠️ Topic 4: Tools for Software Development"
   #   chapters:
   #     - file: topic_4_tools_for_software_development/1_Introduction_to_GIT
   #     - file: topic_4_tools_for_software_development/2_pyscaffold_tutorial
-  # - caption: "🔢 Numpy"
-  #   chapters:
-  #     - file: topic_6_Numpy/Introduction_to_numpy
-  #     - file: topic_6_Numpy/Basics_of_numpy
   # - caption: "📈 Matplotlib"
   #   chapters:
   #     - file: topic_7_Introduction_Matplotlib/Introduction_to_Plotting
