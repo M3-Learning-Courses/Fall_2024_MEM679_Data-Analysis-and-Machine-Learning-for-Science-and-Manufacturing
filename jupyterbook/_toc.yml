@@ -91,6 +91,8 @@ parts:
         title: "1️⃣ Project Whitepaper"
       - file: homework/homework_2
         title: "2️⃣ 🎮 Building a Game of Minesweeper 💣"
+      - file: homework/homework_3
+        title: "3️⃣ 📊 Data Visualization with Matplotlib, Dash, and Panel"
 
   # - caption: "🛠️ Topic 4: Tools for Software Development"
   #   chapters:
