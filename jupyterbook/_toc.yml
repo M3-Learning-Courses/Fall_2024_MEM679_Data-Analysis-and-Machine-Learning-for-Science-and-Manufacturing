@@ -94,10 +94,6 @@ parts:
       - file: homework/homework_3
         title: "3️⃣ 📊 Data Visualization with Matplotlib, Dash, and Panel"
 
-  # - caption: "🛠️ Topic 4: Tools for Software Development"
-  #   chapters:
-  #     - file: topic_4_tools_for_software_development/1_Introduction_to_GIT
-  #     - file: topic_4_tools_for_software_development/2_pyscaffold_tutorial
 
   # - caption: "📈 Interactive Plotting"
   #   chapters:
