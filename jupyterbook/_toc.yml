@@ -85,6 +85,12 @@ parts:
   - caption: "📈 Matplotlib"
     chapters:
       - file: topic_6/Introduction_to_Plotting
+  - caption: "📈 Interactive Panels"
+    chapters:
+      - file: topic_7/1_hello_world
+        title: "🌍 Hello World"
+      - file: topic_7/2_developing
+        title: "💻 Developing Interactive Panels"
   - caption: "📝 Homework"
     chapters:
       - file: homework/homework_1_whitepaper
