@@ -11,3 +11,5 @@ seaborn
 networkx
 panel
 jupyter_bokeh
+altair
+hvplot
