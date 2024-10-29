@@ -13,3 +13,4 @@ panel
 jupyter_bokeh
 altair
 hvplot
+holoviews
