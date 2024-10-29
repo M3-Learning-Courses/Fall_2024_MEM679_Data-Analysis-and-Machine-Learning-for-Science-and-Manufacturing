@@ -85,6 +85,24 @@ parts:
   - caption: "📈 Matplotlib"
     chapters:
       - file: topic_6/Introduction_to_Plotting
+  - caption: "📈 Interactive Panels"
+    chapters:
+      - file: topic_7/1_hello_world
+        title: "🌍 Hello World"
+      - file: topic_7/2_developing
+        title: "💻 Developing Interactive Panels"
+      - file: topic_7/3_components
+        title: "🧩 Components"
+      - file: topic_7/4_build-a-dashboard
+        title: "📊 Build a Dashboard"
+      - file: topic_7/5_deployment
+        title: "🚀 Deployment"
+      - file: topic_7/6_monitoring_dashboard
+        title: "📈 Monitoring Dashboard"
+      - file: topic_7/7_crossfiltering
+        title: "🔀 Crossfiltering"
+      - file: topic_7/8_image_classifier
+        title: "🖼️ Image Classifier"
   - caption: "📝 Homework"
     chapters:
       - file: homework/homework_1_whitepaper

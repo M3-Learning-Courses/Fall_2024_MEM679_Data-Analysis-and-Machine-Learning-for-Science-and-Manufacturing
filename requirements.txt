@@ -9,3 +9,8 @@ scikit-learn
 plotly
 seaborn
 networkx
+panel
+jupyter_bokeh
+altair
+hvplot
+holoviews
