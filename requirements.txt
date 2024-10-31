@@ -16,4 +16,5 @@ hvplot
 holoviews
 dask
 dask[dataframe]
+dask[distributed]
 graphviz
