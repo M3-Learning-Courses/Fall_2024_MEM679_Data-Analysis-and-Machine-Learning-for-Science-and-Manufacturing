@@ -103,6 +103,16 @@ parts:
         title: "🔀 Crossfiltering"
       - file: topic_7/8_image_classifier
         title: "🖼️ Image Classifier"
+  - caption: "📈 Scientific Python"
+    chapters:
+      - file: topic_8/1_Introduction_to_SciPy
+        title: "📈 Introduction to SciPy"
+      - file: topic_8/2_Symbolic_Python
+        title: "🥧 Symbolic Python"
+  - caption: "🚀 Parallelization"
+    chapters:
+      - file: topic_9/1_dask
+        title: "🚀 Dask"
   - caption: "📝 Homework"
     chapters:
       - file: homework/homework_1_whitepaper
