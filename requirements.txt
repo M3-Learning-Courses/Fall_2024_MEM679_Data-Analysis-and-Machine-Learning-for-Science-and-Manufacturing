@@ -14,3 +14,7 @@ jupyter_bokeh
 altair
 hvplot
 holoviews
+dask
+dask[dataframe]
+dask[distributed]
+graphviz
