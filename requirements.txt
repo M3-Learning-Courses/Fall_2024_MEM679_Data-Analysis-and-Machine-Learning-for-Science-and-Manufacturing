@@ -18,3 +18,4 @@ dask
 dask[dataframe]
 dask[distributed]
 graphviz
+sympy
