@@ -107,7 +107,7 @@ parts:
     chapters:
       - file: topic_8/1_Introduction_to_SciPy
         title: "📈 Introduction to SciPy"
-      - file: topic_8/2_Symbolic_Python
+      - file: topic_8/2_SymPy
         title: "🥧 Symbolic Python"
   - caption: "🚀 Parallelization"
     chapters:
