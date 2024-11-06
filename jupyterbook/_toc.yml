@@ -112,7 +112,7 @@ parts:
   - caption: "🚀 Parallelization"
     chapters:
       - file: topic_9/1_dask
-        title: "🚀 Dask"
+        title: "🚀 Dask "
   - caption: "📝 Homework"
     chapters:
       - file: homework/homework_1_whitepaper
