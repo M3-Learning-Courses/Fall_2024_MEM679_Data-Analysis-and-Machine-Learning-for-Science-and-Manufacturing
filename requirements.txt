@@ -18,3 +18,5 @@ dask
 dask[dataframe]
 dask[distributed]
 graphviz
+sympy
+scikit-image
