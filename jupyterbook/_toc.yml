@@ -112,19 +112,19 @@ parts:
   - caption: "⚡ Parallelization"
     chapters:
       - file: topic_9/1_dask
-      title: "⚡ Dask "
+        title: "⚡ Dask "
   - caption: "🖼️ Image Analysis"
     chapters:
       - file: topic_10/1_Introduction_to_Image_Analysis
-      title: "🖼️ Introduction to Image Analysis"
+        title: "🖼️ Introduction to Image Analysis"
   - caption: "📝 Homework"
     chapters:
       - file: homework/homework_1_whitepaper
-      title: "1️⃣ Project Whitepaper"
+        title: "1️⃣ Project Whitepaper"
       - file: homework/homework_2
-      title: "2️⃣ Building a Game of Minesweeper 💣"
+        title: "2️⃣ Building a Game of Minesweeper 💣"
       - file: homework/homework_3
-      title: "3️⃣ Data Visualization 📊"
+        title: "3️⃣ Data Visualization 📊"
 
 
   # - caption: "📈 Interactive Plotting"
