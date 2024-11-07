@@ -113,7 +113,7 @@ parts:
     chapters:
       - file: topic_9/1_dask
       title: "⚡ Dask "
-    - caption: "🖼️ Image Analysis"
+  - caption: "🖼️ Image Analysis"
     chapters:
       - file: topic_10/1_Introduction_to_Image_Analysis
       title: "🖼️ Introduction to Image Analysis"
