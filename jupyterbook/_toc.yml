@@ -117,6 +117,19 @@ parts:
     chapters:
       - file: topic_10/1_Introduction_to_Image_Analysis
         title: "🖼️ Introduction to Image Analysis"
+  - caption : "📊 Scientific Data Management"
+    chapters:
+      - file: topic_11/Introduction_to_python
+        title: "💾 Scientific Data Management"
+        sections:
+            - file: topic_11/1_DataFed_An_Introduction
+            title: "📂 DataFed: An Introduction"
+            - file: topic_11/2_DataFed_Installation
+            title: "⚙️ DataFed Installation"
+            - file: topic_11/3_DataFed_Tutorial
+            title: "📖 DataFed Tutorial"
+            - file: topic_11/4_pytorch_logger
+            title: "📝 PyTorch Logger"
   - caption: "📝 Homework"
     chapters:
       - file: homework/homework_1_whitepaper
@@ -125,6 +138,8 @@ parts:
         title: "2️⃣ Building a Game of Minesweeper 💣"
       - file: homework/homework_3
         title: "3️⃣ Data Visualization 📊"
+      - file: homework/homework_4
+        title: "4️⃣ Scientific Data Management 💾"
 
 
   # - caption: "📈 Interactive Plotting"
