@@ -122,14 +122,14 @@ parts:
       - file: topic_11/Introduction_to_python
         title: "💾 Scientific Data Management"
         sections:
-            - file: topic_11/1_DataFed_An_Introduction
-            title: "📂 DataFed: An Introduction"
-            - file: topic_11/2_DataFed_Installation
-            title: "⚙️ DataFed Installation"
-            - file: topic_11/3_DataFed_Tutorial
-            title: "📖 DataFed Tutorial"
-            - file: topic_11/4_pytorch_logger
-            title: "📝 PyTorch Logger"
+          - file: topic_11/1_DataFed_An_Introduction
+          title: "📂 DataFed: An Introduction"
+          - file: topic_11/2_DataFed_Installation
+          title: "⚙️ DataFed Installation"
+          - file: topic_11/3_DataFed_Tutorial
+          title: "📖 DataFed Tutorial"
+          - file: topic_11/4_pytorch_logger
+          title: "📝 PyTorch Logger"
   - caption: "📝 Homework"
     chapters:
       - file: homework/homework_1_whitepaper
