@@ -20,3 +20,4 @@ dask[distributed]
 graphviz
 sympy
 scikit-image
+datafed
