@@ -130,6 +130,10 @@ parts:
             title: "📖 DataFed Tutorial"
           - file: topic_11/4_pytorch_logger
             title: "📝 PyTorch Logger"
+  - caption: "📊➡️🧠 Supervised Machine Learning"
+    chapters:
+      - file: topic_12/1_Supervised_Learning
+        title: "📈 Introduction to Linear Machine Learning"
   - caption: "📝 Homework"
     chapters:
       - file: homework/homework_1_whitepaper

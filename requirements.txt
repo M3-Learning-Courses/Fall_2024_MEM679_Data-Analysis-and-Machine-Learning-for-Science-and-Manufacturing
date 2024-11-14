@@ -21,3 +21,4 @@ graphviz
 sympy
 scikit-image
 datafed
+altair
