@@ -1,0 +1,17 @@
+version: '3'
+services:
+  jupyter:
+    build:
+      context: .
+      dockerfile: Docker/Dockerfile
+    ports:
+      - "8888:8888"
+    volumes:
+      - jupyter_workspace:/workspace
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    restart: unless-stopped
+
+volumes:
+  jupyter_workspace:
+    driver: local

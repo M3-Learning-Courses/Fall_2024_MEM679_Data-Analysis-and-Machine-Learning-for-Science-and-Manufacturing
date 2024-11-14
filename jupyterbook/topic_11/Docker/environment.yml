@@ -1,0 +1,19 @@
+name: jupyter_env
+channels:
+  - pytorch # Added for PyTorch compatibility
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyter
+  - notebook
+  - RISE
+  - numpy
+  - pandas
+  - matplotlib
+  - ipywidgets
+  - pip
+  - pip:
+      - jupyter_contrib_nbextensions
+      - m3Learning-util
+      - jupyterlab_rise
