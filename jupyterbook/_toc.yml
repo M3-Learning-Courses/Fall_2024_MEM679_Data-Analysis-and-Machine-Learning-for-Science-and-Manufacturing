@@ -117,7 +117,7 @@ parts:
     chapters:
       - file: topic_10/1_Introduction_to_Image_Analysis
         title: "🖼️ Introduction to Image Analysis"
-  - caption : "📊 Scientific Data Management"
+  - caption: "📊 Scientific Data Management"
     chapters:
       - file: topic_11/Introduction_to_python
         title: "💾 Scientific Data Management"
@@ -130,6 +130,17 @@ parts:
             title: "📖 DataFed Tutorial"
           - file: topic_11/4_pytorch_logger
             title: "📝 PyTorch Logger"
+  - caption: "🧩 Unsupervised Learning"
+    chapters:
+      - file: topic_13/Objectives
+        title: "🧩 Introduction to Unsupervised Learning"
+        sections:
+          - file: topic_13/1_Clustering_Algorithms
+            title: "🔍 Clustering Algorithms"
+          - file: topic_13/2_Decomposition_Algorithims
+            title: "🧬 Decomposition Algorithms"
+          - file: topic_13/3_Manifold_Learning
+            title: "🌐 Manifold Learning"
   - caption: "📊➡️🧠 Supervised Machine Learning"
     chapters:
       - file: topic_12/1_Supervised_Learning
@@ -145,38 +156,6 @@ parts:
       - file: homework/homework_4
         title: "4️⃣ Scientific Data Management 💾"
 
-
-  # - caption: "📈 Interactive Plotting"
-  #   chapters:
-  #     - file: topic_8_Interactive Plotting/Interactive_Graphing_with_Dash
-  # - caption: "🧬 SciPy"
-  #   chapters:
-  #     - file: topic_9_Intro_to_scipy/introduction_to_scipy
-  # - caption: "🥧 Symbolic Python"
-  #   chapters:
-  #     - file: topic_10_symbolic_python/SymPy/SymPy
-  # - caption: "💾 Scientific Data Management"
-  #   chapters:
-  #     - file: topic_11_Scientific_Data_Management/Introduction_to_python
-  #       title: "💾 Scientific Data Management"
-  #       sections:
-  #         - file: topic_11_Scientific_Data_Management/1_DataFed_An_Introduction
-  #         - file: topic_11_Scientific_Data_Management/2_DataFed_Installation
-  #         - file: topic_11_Scientific_Data_Management/3_DataFed_Tutorial
-  # - caption: "🖼️ Image Analysis"
-  #   chapters:
-  #     - file: topic_12_Image_Analysis/Topic_6_Image_Analysis/Image_Analysis
-  # - caption: "📊➡️🧠 Supervised Machine Learning"
-  #   chapters:
-  #     - file: topic_13_Supervised_ML/0_Supervised_Learning
-  # - caption: "🧩 Unsupervised Learning"
-  #   chapters:
-  #     - file: Topic_14_unsupervised_learning/Objectives
-  #       title: "🧩 Unsupervised Learning"
-  #       sections:
-  #         - file: Topic_14_unsupervised_learning/1_Clustering_Algorithms
-  #         - file: Topic_14_unsupervised_learning/2_Decomposition_Algorithims
-  #         - file: Topic_14_unsupervised_learning/3_Manifold_Learning
   # - caption: "🕸️ Neural Networks PyTorch"
   #   chapters:
   #     - file: Topic_15_PyTorch_NNs/Objectives
