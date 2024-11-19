@@ -22,3 +22,5 @@ sympy
 scikit-image
 datafed
 altair
+plotly_express
+umap-learn
