@@ -24,3 +24,4 @@ datafed
 altair
 plotly_express
 umap-learn
+torchvision

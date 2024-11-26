@@ -145,6 +145,19 @@ parts:
             title: "🧬 Decomposition Algorithms"
           - file: topic_13/3_Manifold_Learning
             title: "🌐 Manifold Learning"
+  - caption: "🕸️ Neural Networks PyTorch"
+    chapters:
+      - file: topic_14/Objectives
+        title: "🕸️ Deep Learning with Pytorch"
+        sections:
+          - file: topic_14/1_quickstart_tutorial
+          - file: topic_14/2_tensor_tutorial
+          - file: topic_14/3_data_tutorial
+          - file: topic_14/4_transforms_tutorial
+          - file: topic_14/5_buildmodel_tutorial
+          - file: topic_14/6_autogradqs_tutorial
+          - file: topic_14/7_optimization_tutorial
+          - file: topic_14/8_saveloadrun_tutorial
   - caption: "📝 Homework"
     chapters:
       - file: homework/homework_1_whitepaper
@@ -155,20 +168,6 @@ parts:
         title: "3️⃣ Data Visualization 📊"
       - file: homework/homework_4
         title: "4️⃣ Scientific Data Management 💾"
-
-  # - caption: "🕸️ Neural Networks PyTorch"
-  #   chapters:
-  #     - file: Topic_15_PyTorch_NNs/Objectives
-  #       title: "🕸️ Deep Learning with Pytorch"
-  #       sections:
-  #         - file: Topic_15_PyTorch_NNs/1_quickstart_tutorial
-  #         - file: Topic_15_PyTorch_NNs/2_tensor_tutorial
-  #         - file: Topic_15_PyTorch_NNs/3_data_tutorial
-  #         - file: Topic_15_PyTorch_NNs/4_transforms_tutorial
-  #         - file: Topic_15_PyTorch_NNs/5_buildmodel_tutorial
-  #         - file: Topic_15_PyTorch_NNs/6_autogradqs_tutorial
-  #         - file: Topic_15_PyTorch_NNs/7_optimization_tutorial
-  #         - file: Topic_15_PyTorch_NNs/8_saveloadrun_tutorial
 
   #   chapters:
   #     - file: homework/homework
