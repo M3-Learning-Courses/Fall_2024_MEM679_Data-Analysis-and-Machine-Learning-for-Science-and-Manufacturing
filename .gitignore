@@ -169,3 +169,7 @@ jupyterbook/topic_11/data/*
 jupyterbook/topic_11/model/*
 jupyterbook/topic_11/datapath
 jupyterbook/topic_11/log.txt
+
+jupyterbook/topic_14/data
+jupyterbook/topic_14/model_weights.pth
+jupyterbook/topic_14/model.pth
